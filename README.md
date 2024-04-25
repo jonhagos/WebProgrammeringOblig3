@@ -3,6 +3,13 @@ Webprogrammering Obligatorisk oppgave 3
 Fullnavn: Yohannes hagos Gebrengus
 Github brukernavn: jonhagos
 Github Repo URL : https://github.com/jonhagos/WebProgrammeringOblig3
+Youtube Link : https://youtu.be/5zG9SGZ15XA
+Youtube Link : https://youtu.be/q4m0j1tqO6s
+
+
+Den første videoen jeg spilte inn med mobilen min er ikke klar. Men den andre videoen,
+som jeg spilte inn med en skjermopptaker på Windows 11, er bedre.
+
 input bokser validering er gjennomført
 
 Velg film felt har validering slik bruker kan ikke gå videre uten å velge en film,
