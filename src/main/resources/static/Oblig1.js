@@ -145,6 +145,7 @@ function slett() {
     $.post("/slettAlle", {}, function () {
         let list = document.getElementById('alleBilletter');
         list.innerHTML = " ";  // deleting entire data in the array
+        closeAlert();
     });
 
 
