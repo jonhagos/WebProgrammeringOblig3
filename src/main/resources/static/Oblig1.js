@@ -111,10 +111,16 @@ function postData(Billett) {
         document.getElementById("epostVal").innerHTML = "";
         document.getElementById("myForm").reset();
 
+
+        //window.alert("your data has been saved successfully");
+        $('.alert').css('display', 'block');
         fikkAlle();
     });
 }
 
+function closeAlert(){
+    $('.alert').css('display', 'none');
+}
 
 function fikkAlle() {
     $.get("/fikkAlle", function (data) {
