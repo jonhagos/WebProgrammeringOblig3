@@ -4,13 +4,13 @@
 }
 
 .form-heading {
-    font-size: 2.5rem; /* Adjust font size as needed */
-    color: #333; /* Adjust color as needed */
+    font-size: 2.5rem;
+    color: #333;
     position: relative;
-    animation: slideIn 1s ease-in-out; /* Animation definition */
+    animation: slideIn 1s ease-in-out;
 }
 
-/* Keyframes for animation */
+
 @keyframes slideIn {
     0% {
         transform: translateY(-50px);
@@ -22,19 +22,18 @@
     }
 }
 
-/* Style for form container */
 .form-container {
     max-width: 400px;
     margin: 0 auto;
 }
 
-/* Style for form labels */
+
 .form-label {
     display: block;
     margin-bottom: 5px;
 }
 
-/* Style for form inputs */
+
 .form-input {
     width: 100%;
     padding: 8px;
@@ -45,13 +44,13 @@
     height: 35px !important;
 }
 
-/* Style for validation text */
+
 .validation-text {
     font-size: 0.8rem;
     color: #f00;
 }
 
-/* Style for submit button */
+
 .submit-button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -61,12 +60,12 @@
     cursor: pointer;
 }
 
-/* Style for submit button on hover */
+
 .submit-button:hover {
     background-color: #0056b3;
 }
 
-/* Style for delete button */
+
 .delete-button {
     padding: 8px 16px;
     background-color: #dc3545;
@@ -76,7 +75,7 @@
     cursor: pointer;
 }
 
-/* Style for delete button on hover */
+
 .delete-button:hover {
     background-color: #c82333;
 }
