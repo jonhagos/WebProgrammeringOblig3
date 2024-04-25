@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bestilling av Kinobilletter</title>
+    <link rel="stylesheet" href="Index.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/2.3.1/css/bootstrap.min.css">
+    <script src="Oblig1.js"></script>
+
+
+</head>
+<body>
+<div class="form-container">
+  <form name="myForm" id="myForm">
+
+    <h1 class="form-heading">Bestilling av Kinobilletter</h1>
+
+            <label class="form-label" for="movies">Velg en film:</label>
+              <select name="movies" id="movies" class="form-input" >
+             <option value="" disabled selected hidden>Vennligst velg en film</option>
+
+                <option>Lady Bird</option>
+                <option>Sweet November</option>
+                <option>Pain and Glory</option>
+
+              </select> &nbsp;<span id="velgFilmVal" style="color: red"></span>
+
+        <!-- <b>Antall</b>: <input type="text" name="antall" id="antallId"> &nbsp;<span id="antallVal" style="color: red"></span> -->
+      <label class="form-label" for="antallId">Antall:</label>
+      <input type="text" name="antall"  class="form-input" id="antallId">
+      <span id="antallVal" style="color: red"></span>
+
+      <label class="form-label" for="fNavnId">Fornavn:</label>
+       <input type="text" name="fNavn" class="form-input" id="fNavnId"> &nbsp;
+       <span id="fNavnVal" style="color: red"></span>
+
+
+      <label class="form-label" for="eNavnId">Etternavn</label>
+    <input type="text" name="eNavn" class="form-input" id="eNavnId">
+      <span id="eNavnVal" style="color: red"></span>
+
+
+      <label class="form-label" for="telefonnrId">Telefonnummer:</label>
+      <input type="tel" maxlength="8" class="form-input" name="telefonnr" id="telefonnrId">
+      <span id="telefonnrVal" style="color: red"></span>
+
+
+      <label class="form-label" for="epostId">Epost:</label>
+    <input type="text" name="epost" class="form-input" id="epostId">
+      &nbsp;<span id="epostVal" style="color: red"></span>
+
+      </br>
+      </br>
+
+
+
+
+   <input type="button" onclick="validateForm()" value="KjøpBillett" class="submit-button"  >
+
+</form>
+
+
+<h3>Alle Billetter</h3>
+
+<div id="alleBilletter"></div>
+
+
+<button onclick="slett()" class="delete-button" ><b>Slette alle billettene</b></button>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
